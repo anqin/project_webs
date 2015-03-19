@@ -1,4 +1,4 @@
-tencentopen.github.io
+Baidu OpenSource Webpages
 =====================
 
-Tencent Open Source - 腾讯开源
+Webpage codes for Baidu open-source website
