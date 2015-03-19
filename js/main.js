@@ -78,10 +78,10 @@
         intro: 'Tera is a high-throughput distributed table storage, implementing the full-ordered data model and lightweight load balnace based on overhead-less split and merge operations. It can run on current mainstream distributed filesystem (like HDFS).'
     }, {
         url: 'http://anqin.github.io/pbrpc/',
-        name: 'pbrpc',
+        name: 'Sofa-pbrpc',
         img: 'img/proj/alloyimage.png',
         brief: 'Sofa-pbrpc: high-performance protobuf-based RPC framework',
-        intro: 'A light-weight RPC implement of google protobuf RPC framework.'
+        intro: 'A light-weight RPC implement of google protobuf RPC framework. The Sofa-pbrpc is basic network communication framework using in many Baidu-internal system, like Tera. It provides 480-thousand peak QPS, supporting the networking mechanism inside the distributed system.'
     }];
     var data = {
         list: list
