@@ -38,10 +38,10 @@
         
         if(itemType == 'share'){
             var shareMsg = {
-                title: '腾讯开源项目，正式启航',
-                pic: 'http://tencentopen.github.io/img/slide2.jpg',
-                msg: '腾讯开源项目，正式启航',
-                url: 'http://tencentopen.github.io/'
+                title: 'Baidu Open Sources, Starting',
+                pic: 'http://anqin.github.io/img/slide2.jpg',
+                msg: 'Baidu Open Sources, Starting',
+                url: 'http://anqin.github.io/'
             };
             var targetUrl = '';
             switch(itemValue){
@@ -71,35 +71,17 @@
 
     // render proj
     var list = [{
-        url: 'http://alloyteam.github.io/JX/',
-        name: 'JX',
+        url: 'http://anqin.github.io/tera/',
+        name: 'Tera',
         img: 'img/proj/jx.png',
-        brief: '模块化的非侵入式Web前端框架',
-        intro: 'JX 是模块化的非侵入式 Web 前端框架，开发于2008年，腾讯 WebQQ、腾讯 Q+ 等产品都是采用 JX 框架开发，兼容目前所有主流浏览器。'
+        brief: 'Tera: High-throughput Distributed Table Storage',
+        intro: 'Tera is a high-throughput distributed table storage, implementing the full-ordered data model and lightweight load balnace based on overhead-less split and merge operations. It can run on current mainstream distributed filesystem (like HDFS).'
     }, {
-        url: 'http://alloyteam.github.io/AlloyPhoto/',
-        name: 'AlloyImage',
+        url: 'http://anqin.github.io/pbrpc/',
+        name: 'pbrpc',
         img: 'img/proj/alloyimage.png',
-        brief: '基于html5的JS图片图像处理库',
-        intro: 'AlloyImage 使用纯 Javascript 开发的，基于 Web 的 html5 在线图像处理引擎，同时集成了一些方便快捷的图像处理API。'
-    }, {
-        url: 'proj/AlloyDesktop/index.html',
-        name: 'AlloyDesktop',
-        img: 'img/proj/alloydesktop.png',
-        brief: 'html5 桌面 App 开发引擎',
-        intro: 'AlloyDesktop 是一个基于 html5 的桌面上的 app 开发引擎，实现对网页的透明渲染，同时提供强大的 api 支持，使你能够使用如文件 IO 等高级功能'
-    }, {
-        url: 'proj/rythem/index.html',
-        name: 'Rythem',
-        img: 'img/proj/rythem.png',
-        brief: '开源跨平台抓包调试工具',
-        intro: 'Rythem 是一个与 Fiddler 同类的软件，具有代理抓包/替换等功能，而且跨平台 & 开源。'
-    }, {
-        url: 'http://alloyteam.github.io/jxanimate/',
-        name: 'JX.Animate',
-        img: 'img/proj/jxanimate.png',
-        brief: 'html5/css3 动画引擎',
-        intro: 'JX.Animation 是一个开源的轻量级的CSS3动画库。可以使用 CSS3 KeyFrame 制作，也可以使用 JavaScript 动态生成动画关键帧。'
+        brief: 'Sofa-pbrpc: high-performance protobuf-based RPC framework',
+        intro: 'A light-weight RPC implement of google protobuf RPC framework.'
     }];
     var data = {
         list: list
